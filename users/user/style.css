@@ -1,0 +1,86 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+.reg h3 {
+    width: 95%;
+    margin: auto;
+    padding: 10px 5px;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+.row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.row .reg {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #cccccc;
+    width: 70%;
+}
+.reg .reg-title {
+    border-bottom: 1px solid #cccccc;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: auto;
+    margin-top: 12px;
+}
+.form-control {
+    margin-top: 6px;
+    height: 22px;
+}
+.form-btn {
+    width: 95%;
+    margin: auto;
+    margin-top: 12px;
+    margin-bottom: 16px;
+}
+.btn {
+    width: 50px;
+    height: 26px;
+    cursor: pointer;
+}
+.row .user {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-top: 25px;
+}
+th, td {
+    border: 1px solid #cccccc;
+    text-align: center;
+    padding: 5px 5px;
+}
+table {
+    border-collapse: collapse;
+}
+thead {
+    color: white;
+    background-color: #00AA00;
+}
+#save {
+    color: white;
+    background-color: #00AA00;
+    border: none;
+    border-radius: 5px;
+}
+#delete {
+    color: white;
+    background-color: #EE0000;
+    border: none;
+    border-radius: 5px;
+}
+#reset, #edit {
+    color: black;
+    background-color: #FFCC33;
+    border: none;
+    border-radius: 5px;
+}
